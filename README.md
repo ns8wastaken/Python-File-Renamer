@@ -1,13 +1,13 @@
 # Usage
 
 ```
-usage: file.py [-h] --path PATH -rt {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase}
+usage: file.py [-h] --path PATH -rt {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set}
                --params PARAMS
 
 options:
   -h, --help            show this help message and exit
   --path PATH           path to your file
-  -rt, --rename-type {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase}
+  -rt, --rename-type {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set}
                         choose rename type
   --params PARAMS       parameters for chosen rename type
 ```
@@ -42,3 +42,8 @@ Set all letters to uppercase (params doesn't require anything)
 `file.py --path="path/to/directory" --rename-type="lowercase" --params=""`
 <br>
 Set all letters to lowercase (params doesn't require anything)
+
+### Set name
+`file.py --path="path/to/directory" --rename-type="set_name" --params="name:-"`
+<br>
+Set the name to the given name with duplicates being separated by the given separator (params takes in {name}:{separator})
