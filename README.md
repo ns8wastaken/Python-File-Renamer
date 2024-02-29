@@ -1,13 +1,13 @@
 # Usage
 
 ```
-usage: file.py [-h] --path PATH -rt {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set}
+usage: file.py [-h] --path PATH -rt {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set_name}
                --params PARAMS
 
 options:
   -h, --help            show this help message and exit
   --path PATH           path to your file
-  -rt, --rename-type {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set}
+  -rt, --rename-type {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set_name}
                         choose rename type
   --params PARAMS       parameters for chosen rename type
 ```
