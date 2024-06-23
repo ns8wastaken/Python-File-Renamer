@@ -1,7 +1,7 @@
 # Usage
 
 ```
-usage: file.py [-h] --path PATH -rt {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set_name}
+usage: main.py [-h] --path PATH -rt {replace, remove_start, remove_end, remove_from_to, uppercase, lowercase, set_name}
                --params PARAMS
 
 options:
